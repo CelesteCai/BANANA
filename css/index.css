@@ -22,7 +22,11 @@ ol, ul, li { list-style:none; }
 	.head{
 		background-color: #003366;
 		margin:auto;
+<<<<<<< HEAD
 		width: 1000px;
+=======
+		width: 1100px;
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
 		height: 75px;
 		padding-top:45px; 
 		
@@ -60,7 +64,11 @@ ol, ul, li { list-style:none; }
 	.nav ul li {
 		color: #0000cd;
 		height: 50px;
+<<<<<<< HEAD
 		width: 128px;
+=======
+		width: 160px;
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
 		line-height: 50px;
 		background-color: #003366;
 		opacity: 0.9;
@@ -77,7 +85,11 @@ ol, ul, li { list-style:none; }
 	.nav ul li a:hover{
 		color: #fff;
 		height: 50px;
+<<<<<<< HEAD
 		width: 128px;
+=======
+		width: 160px;
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
 		line-height: 50px;
 		background-color: #003366;
 		float: left;
@@ -92,7 +104,11 @@ ol, ul, li { list-style:none; }
 
 	.nav ul li:hover ul{
 		height: 50px;
+<<<<<<< HEAD
 		width: 128px;
+=======
+		width: 160px;
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
 		line-height: 50px;
 		background-color: #003366;
 		display: block;
@@ -102,7 +118,11 @@ ol, ul, li { list-style:none; }
 
 	.nav ul li ul{
 		height: 50px;
+<<<<<<< HEAD
 		width: 128px;
+=======
+		width: 160px;
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
 		line-height: 50px;
 		background-color: #ffcc99;
 		display: none;
@@ -110,16 +130,26 @@ ol, ul, li { list-style:none; }
 		color: #ffffff;
 		z-index: 1;
 	}
+<<<<<<< HEAD
 
 	/*Main Picture*/
 	#picslide{
 		height: 500px;
 		width: 1200px;
+=======
+	#picslide{
+		height: 900px;
+		width: 1200px;
+		background-color: #ff6699;
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
 		margin:auto;
 		margin-top:270px; 
 	}
 	
+<<<<<<< HEAD
 	/*Footer*/
+=======
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
 	#footicon{
 		clear:both;
 		margin:auto;
@@ -157,7 +187,10 @@ ol, ul, li { list-style:none; }
 	opacity: 0.9;
 	font-family: "Microsoft JhengHei";
 	z-index: -1;
+<<<<<<< HEAD
 	clear: both;
+=======
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
 }
 
 #soinfo{
@@ -180,7 +213,10 @@ ol, ul, li { list-style:none; }
 	font-family: ""
 }
 
+<<<<<<< HEAD
 /*Members' Boxes*/
+=======
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
 
 #member{
 	margin:auto;
@@ -218,6 +254,7 @@ ol, ul, li { list-style:none; }
 	
 }
 
+<<<<<<< HEAD
 /*Diary*/
 
 #diary{
@@ -311,3 +348,5 @@ ol, ul, li { list-style:none; }
 	font-family: "Microsoft JhengHei";
 
 }
+=======
+>>>>>>> 99e4cfbf6d1ab67aadda592aeb290e5be6a4111b
