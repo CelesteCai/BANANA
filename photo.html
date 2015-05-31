@@ -1,0 +1,164 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>After She Quit Eating Banana</title>
+		
+
+	<!--外來種-->
+    	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+    <!-- Add jQuery library -->
+    <script type="text/javascript" src="js/lib/jquery-1.9.0.min.js"></script>
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="js/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="js/source/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="js/source/jquery.fancybox.css" media="screen" />
+
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            /*
+             *  Simple image gallery. Uses default settings
+             */
+
+            $('.fancybox').fancybox();
+
+        });
+    </script>
+    <style type="text/css">
+        .fancybox-custom .fancybox-skin {
+            box-shadow: 0 0 50px #222;
+        }
+
+        body {
+            max-width: 200px;
+            margin: 0 auto;
+        }
+
+    </style>
+    <style type="text/css">
+        .content_box{
+    border:1px solid: #000;
+    padding:0px;
+    margin:0px 5px 0px 0px;
+    overflow:hidden;
+    font-size:15px;
+    line-height:150%;
+    letter-spacing:0pt;
+    color:#353535;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+    width:390px;
+    display:inline-block;
+    font-size:12px;
+    }
+    .content_box h1{font-size:15px;}
+    
+    .content_box img{
+        width:390px;
+    }
+    #container {
+        width: 1200px;
+        margin-left: 20px;
+        margin-top: 200px;
+
+    }
+    </style>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel=stylesheet type="text/css" href="css/index.css">
+    <script type="text/javascript" src="js/jquery.masonry.min.js">
+    </script>
+
+    <script>
+    $(function(){
+        $('#_container').imagesLoaded(function(){
+            $('#_container').masonry({        
+                itemSelector: '.content_box',
+                columnWidth: 500,
+                singleMode: false,
+                animate:true
+            });
+        });
+    });
+    </script>
+		
+	</head>
+
+	<body>
+	<!--每一頁都一樣的地方-->
+		<div id="outhead">
+			<div class="head">
+				<div class="brand">
+					<p>踉蹌</p>
+					<p>鴕鳥</p>
+				</div>
+				<div class="nav">
+					<ul>
+						<li><a href="index.html">首頁</a></li>
+						<li><a href="event.html">活動快訊</a>
+							<ul>
+								<li><a href="#">集體恍惚</a></li>
+							</ul>
+						</li>
+						<li><a href="info.html">劇團簡介</a>
+							<ul>
+								<li><a href="info.html">劇團緣起</a></li>
+								<li><a href="info.html#tagTeam">演員介紹</a></li>
+								<li><a href="info.html#tagTeam">製作團隊</a></li>		
+							</ul>
+						</li>
+						<li><a href="diary.html#diary">文摘</a>
+							<ul>
+								<li><a href="diary.html#media">媒體報導</a></li>
+								<li><a href="diary.html#article">雜敘</a></li>
+							</ul>
+						</li>
+						<li><a href="photo.html">圖像日誌</a></li>	
+						
+						<li><a href="contact.html">聯繫我們</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div id="tt">
+		
+		</div>
+
+	<!--外來種-->
+		<div id="container">
+    	<p>
+    		<div class="content_box"><a class="fancybox" href="img/04.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="img/04.jpg" alt="" /></a></div>
+
+       		 <div class="content_box"><a class="fancybox" href="img/06.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="img/06.jpg" alt="" /></a></div>
+
+       		 <div class="content_box"><a class="fancybox" href="img/03.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="img/03.jpg" alt=""/></a></div>
+
+       		 <div class="content_box"><a class="fancybox" href="img/02.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="img/02.jpg" alt=""/></a></div>
+
+			<div class="content_box"><a class="fancybox" href="img/indexpic.pNg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="img/indexpic.PNg" width="200" alt="" /></a></div>
+
+			<div class="content_box"><a class="fancybox" href="img/01.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="img/01.jpg" alt=""/></a></div>
+        	
+           
+
+    	</p>
+		</div>
+
+	</body>
+
+
+
+
+
+
+
+</html>
